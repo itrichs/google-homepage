@@ -1,29 +1,160 @@
-#gimage {
-	padding: 150px 0px 0px 0px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-    z-index: 100;
+* {
+	border: 1px dashed blue;
+	font-family: arial;
+	font-size: 13px;
 }
 
-li {
-	display: : inline;
-	font-family: sans-serif;
-	color: grey;
+.header {
+	height: 60px; width: 100%;
+  	display: inline-block;
 }
 
 ul {
-	float: right;
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+
+}
+
+li {
+	display: inline-block;
+}
+
+#head_list {
+	float: right;
+}
+
+.head_links {
+	color: grey;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	bottom: 13px;
 }
 
 a {
-    color: grey;
-    text-decoration: none;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	height: 95px; width: 300px;
+	display: block;
+	margin: 130px auto 24px auto;
+}
+
+.search, form {
+	height: 30px; width: 576px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.input {
+	height: 24px; width: 560px;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	font-size: 16px;
+}
+
+.input:focus {
+	outline: 0;
 }
 
 form {
+	border: 1px solid #e4e4e4;
+}
+
+form:hover {
+	border: 1px solid gray;
+}
+
+form:focus {
+	border: 1px solid blue;
+}
+
+#mic {
+	position: relative;
+	top: -25px;
+	display: inline-block;
+	float: right;
+}
+
+.buttons{
+	position: relative;
+	width: 300px;
+	margin: 0 auto 0 auto;	
+}
+#search_button, #lucky_button {
+	position: relative;
+	display: inline-block;
+	background-color: #f4f4f4;
+	color: #444;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	font-family: "Lucida Grande";
+	font-size: 11px; font-weight: bold;
 	text-align: center;	
+	padding-top: 8px;
+	}
+
+#search_button:hover {
+	border-bottom: 3px solid #b0b0b0;
+	border-color: #b0b0b0;
+	border-left: 2px solid #b0b0b0;
+	margin-left: 31px;
+}
+
+#lucky_button:hover {
+	border-bottom: 3px solid #b0b0b0;
+	border-color: #b0b0b0;
+	border-left: 2px solid #b0b0b0;
+	margin-left: 7px;
+}
+
+#search_button {
+	height: 21px; width: 98px;
+	margin: 16px 8px 0px 32px;
+}
+
+#lucky_button {
+	height: 21px; width: 110px;
+	margin: 16px 8px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #f4f4f4;
+	height: 40px; width: 100%;
+	border-top: 1px solid #e4e4e4;
+	display: inline-block;
+}
+
+.l_foot_list {
+	position: relative;
+	top: 12px;
+	float: left;
+	margin-left: 14px;
+}
+
+.r_foot_list {
+	position: relative;
+	top: 12px;
+	float: right;
+	margin-right: 14px;	
+}
+
+.l_foot_links {
+	margin: 14px;
+}
+
+.r_foot_links {
+	margin: 14px;
 }
